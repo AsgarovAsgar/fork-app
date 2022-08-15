@@ -67,8 +67,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
-    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "build": "tailwind build -i src/input.css -o dist/output.css",
+    "dev": "tailwind build -i src/input.css -o dist/output.css -w"
   },
   "keywords": [],
   "author": "",
